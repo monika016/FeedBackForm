@@ -1,0 +1,24 @@
+<app-feedback-form (out)="out($event)">
+
+</app-feedback-form>
+<!--<app-feedback-comments [object]="object" ></app-feedback-comments>-->
+
+
+
+<br>
+<mat-card class="mat-c">FEEDBACK</mat-card>
+
+
+<div *ngIf="dataB">
+  <div class="cards" *ngFor="let item of dataB">
+    <br>
+    <mat-card>
+      <p class="date">{{item.date}}</p>
+      <p class="name">{{item.name}} ({{item.mid}})</p>
+
+      <p class="comment">{{item.comment}}</p>
+    </mat-card>
+
+
+  </div>
+</div>

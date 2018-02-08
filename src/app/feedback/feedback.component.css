@@ -1,0 +1,61 @@
+.mat-c{
+    width: 300px;
+    font-weight: 800;
+    left: 30px;
+    animation: ani 1.4s;
+}
+
+@keyframes ani{
+    0%
+    {
+        left: 0;
+        opacity: .2;
+    }
+50%
+{
+    left: 40px;
+    opacity: .7;
+}
+
+100%
+{
+    left: 30px;
+    opacity: 1;
+}
+
+}
+
+.cards
+{
+    width: 700px;
+    margin-left: 30px;
+    animation: carda 1s;
+ }
+
+@keyframes carda{
+    0%{
+        left: 0;
+        opacity: .2;
+    }
+    100%{
+        left: 30px;
+        opacity: 1;
+    }
+}
+
+
+
+.date{
+   margin-left: 250px;
+}
+.name{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.comment{
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 4px lightgray;
+    border-radius: 4px;
+    padding: 5px;
+}

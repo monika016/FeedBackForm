@@ -1,0 +1,40 @@
+<div class="container">
+  <form [formGroup]="feedbackForm">
+    <table>
+      <tr>
+        <td class="labels_heading" colspan="2">FEEDBACK FORM</td>
+      </tr>
+
+      <tr>
+        <td class="labels">NAME :</td>
+        <td> <input type="text" formControlName="name"> </td>
+      </tr>
+
+      <tr>
+        <td class="labels">MID :</td>
+        <td> <input type="text" formControlName="mid"> </td>
+      </tr>
+
+      <tr class="labels">
+        <td colspan="2"> FEEDBACK</td>
+      </tr>
+
+      <tr>
+        <td colspan="2"><textarea rows="6" cols="79" formControlName="comment"></textarea></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" class="btnRow"> <input type="button" (click)="submit()" value="SUBMIT"><input type="button" (click)="reset()" value="RESET"> 
+        </td>
+      </tr>
+
+
+
+    </table>
+
+
+
+
+
+  </form>
+</div>

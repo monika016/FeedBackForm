@@ -1,0 +1,65 @@
+.btnRow{
+    text-align: right;
+}
+
+form{
+      transform: translate(30%, 10%);
+}
+
+td{
+    height: 40px;
+}
+
+.labels{
+    font-weight: 600;
+    width: 120px;
+}
+
+.labels_heading
+{
+        font-size: 22px;
+        font-weight: 600;
+        text-align: center;
+        height: 50px;
+}   
+
+input[type=text], textarea
+{
+    border:none;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding:2px;
+    padding-left: 4px;
+ }
+
+input[type=text]
+{
+    width: 320px;
+}
+
+
+
+input[type=button]
+{
+    width: 90px;
+    margin-right: 10px;
+    color: grey;
+    font-weight: 600;
+    border: none;
+    box-shadow: 2px 4px 1px lightgray;
+    height: 30px;
+}
+
+.divd
+{
+    height: 20px;
+    border-bottom: 2px solid lightslategrey;
+}
+
+.container {
+    border: 2px solid lightslategrey;
+    box-shadow: 2px 2px 2px lightgrey;
+    margin-top: 20px;
+    height: 400px;
+}
